@@ -1,15 +1,16 @@
 .body {
-  background: url("https://res.cloudinary.com/jewish-in-seattle/image/upload/c_crop,h_1800,w_2700,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/jis_1216_neighborhoods_cap_hill_street_car_clw68p.jpg");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSglh7gjRwBJMi_LG3yH-TYOUDia9qgVUql17zS9Mq2Iu3PpVBc&s");
   transition: 10s;
   width: 98%;
-  height: 100%;
+  height: 50%;
   background-size: cover;
 }
 
 
 .head {
-  background-color: rgb(232, 233, 202);
+  background-color: rgb(233, 190, 0);
   display: flex;
+  font-family: "Times New Roman", Times, serif;
   justify-content: center;
   width: 80vw;
   padding: 50px;
@@ -25,7 +26,7 @@
 }
 
 .big-div {
-  background: rgba(134, 134, 134, 0.6);
+  background: rgba(0, 0, 0, 0);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -70,7 +71,8 @@
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
   position: absolute;
   top: 50%;
   left: 50%;
